@@ -1,0 +1,28 @@
+1. Adapter
+2. Builder
+3. Composite
+4. Command
+5. Decorator
+6. Strategy
+7. Observer
+8. Factory
+9. Singletone
+10. Template
+11. Facade
+9. Abstract Factory
+
+
+class Product
+end
+
+class Order
+  def intialize
+    @orders = []
+  end
+
+  def add_product(product)
+    @orders << product
+  end
+end
+
+
